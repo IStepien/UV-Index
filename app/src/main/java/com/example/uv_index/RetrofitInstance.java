@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitInstance {
 
     private static Retrofit retrofit = null;
-    private static String BASE_URL = "http://api.openweathermap.org/data/2.5";
+    private static String BASE_URL = "https://api.openuv.io";
 
     public static ApiService getService() {
 
