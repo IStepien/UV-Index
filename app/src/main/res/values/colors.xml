@@ -3,4 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="colorUvLevelLow">#558B2F</color>
+    <color name="colorUvLevelModerate">#F9A825</color>
+    <color name="colorUvLevelHigh">#EF6C00</color>
+    <color name="colorUvLevelVeryHigh">#B71C1C</color>
+    <color name="colorUvLevelExtreme">#6A1B9A</color>
 </resources>

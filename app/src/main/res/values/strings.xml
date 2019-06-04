@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">UV_Index</string>
     <string name="getUVDataButton">get UV data</string>
+    <string name="headerTextView">Current UV index:</string>
 </resources>
