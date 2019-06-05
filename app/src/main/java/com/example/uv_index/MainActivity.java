@@ -62,20 +62,31 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    private void setBackgroundColor(Double uvValue){
-        if(uvValue>=0&&uvValue<3) {
+
+    private void setBackgroundColor(Double uvValue) {
+
+        if (uvValue >= 0 && uvValue < 3) {
+            
             uvDataTextView.setBackgroundResource(R.color.colorUvLevelLow);
         }
-        if(uvValue>=3&&uvValue<6){
+        if (uvValue >= 3 && uvValue < 6) {
+
+
             uvDataTextView.setBackgroundResource(R.color.colorUvLevelModerate);
         }
-        if(uvValue>=6&&uvValue<8){
+        if (uvValue >= 6 && uvValue < 8) {
+
+
             uvDataTextView.setBackgroundResource(R.color.colorUvLevelHigh);
         }
-        if(uvValue>=8||uvValue<11){
+        if (uvValue >= 8 && uvValue < 11) {
+
+
             uvDataTextView.setBackgroundResource(R.color.colorUvLevelVeryHigh);
         }
-        if(uvValue>=11){
+        if (uvValue >= 11) {
+
+
             uvDataTextView.setBackgroundResource(R.color.colorUvLevelExtreme);
         }
 
